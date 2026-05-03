@@ -30,6 +30,5 @@ declare module '@vue/runtime-core' {
     Set: typeof import('./src/components/Set.vue')['default']
     SocialLinks: typeof import('./src/components/SocialLinks.vue')['default']
     TimeCapsule: typeof import('./src/components/TimeCapsule.vue')['default']
-    Weather: typeof import('./src/components/Weather.vue')['default']
   }
 }
