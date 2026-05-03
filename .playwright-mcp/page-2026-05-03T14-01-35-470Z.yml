@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - img "cover" [ref=e13]
+    - main [ref=e14]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - img "logo" [ref=e20]
+            - generic [ref=e21]: iPHX.io
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - paragraph: Hi, I'm PHX
+                - paragraph: 开发者 · 创业者 · IDC 与网络基础设施
+              - generic:
+                - img
+        - generic [ref=e23]:
+          - link [ref=e24]:
+            - /url: https://github.com/wangver721
+            - img [ref=e25]
+          - link [ref=e26]:
+            - /url: https://t.me/PHX_poster?direct
+            - img [ref=e27]
+      - img [ref=e30]
+      - generic [ref=e31]:
+        - generic [ref=e34]: Made By
+        - generic [ref=e35]: 👈 点击展开
+      - generic [ref=e38]:
+        - text: © 2026
+        - link "PHX" [ref=e39]:
+          - /url: //iPHX.io
+  - alert [ref=e40]:
+    - img [ref=e42]
+    - paragraph [ref=e44]:
+      - strong [ref=e45]: 夜深了
+      - text: 欢迎来到我的主页

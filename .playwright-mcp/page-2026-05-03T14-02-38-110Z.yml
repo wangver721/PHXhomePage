@@ -1,0 +1,143 @@
+- generic [ref=e2]:
+  - img "cover" [ref=e13]
+  - main [ref=e14]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - img "logo" [ref=e20]
+            - generic [ref=e21]: iPHX.io
+          - generic [ref=e23]:
+            - img [ref=e25]
+            - generic [ref=e57]:
+              - paragraph [ref=e58]: Less, but better.
+              - paragraph [ref=e59]: Issue 区不常看，有事请直接 Telegram（再点一次可关闭）
+            - img [ref=e31]
+        - generic [ref=e34]:
+          - link [ref=e35]:
+            - /url: https://github.com/wangver721
+            - img [ref=e36]
+          - link [ref=e37]:
+            - /url: https://t.me/PHX_poster?direct
+            - img [ref=e38]
+      - generic [ref=e60]:
+        - img [ref=e62]
+        - img [ref=e67]
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - img [ref=e74]
+              - generic [ref=e77]: 时光胶囊
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - generic [ref=e80]:
+                  - generic [ref=e81]:
+                    - text: 今日已度过
+                    - strong [ref=e82]: "22"
+                    - text: 小时
+                  - generic [ref=e83]: 剩余 2 小时
+                - progressbar [ref=e84]:
+                  - generic [ref=e88]: 91.67%
+              - generic [ref=e89]:
+                - generic [ref=e90]:
+                  - generic [ref=e91]:
+                    - text: 本周已度过
+                    - strong [ref=e92]: "6"
+                    - text: 天
+                  - generic [ref=e93]: 剩余 1 天
+                - progressbar [ref=e94]:
+                  - generic [ref=e98]: 85.71%
+              - generic [ref=e99]:
+                - generic [ref=e100]:
+                  - generic [ref=e101]:
+                    - text: 本月已度过
+                    - strong [ref=e102]: "2"
+                    - text: 天
+                  - generic [ref=e103]: 剩余 29 天
+                - progressbar [ref=e104]:
+                  - generic [ref=e108]: 6.45%
+              - generic [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]:
+                    - text: 本年已度过
+                    - strong [ref=e112]: "122"
+                    - text: 天
+                  - generic [ref=e113]: 剩余 243 天
+                - progressbar [ref=e114]:
+                  - generic [ref=e118]: 33.42%
+          - generic [ref=e119]:
+            - img "PHX" [ref=e121]
+            - generic [ref=e122]:
+              - heading "关于" [level=3] [ref=e123]
+              - paragraph [ref=e124]:
+                - text: 我是
+                - strong [ref=e125]: PHX
+                - text: ，多个商业项目创始人。主攻
+                - strong [ref=e126]: IDC
+                - text: ，对网络、前后端、中小型团队运营以及
+                - strong [ref=e127]: DDoS 攻防
+                - text: 都有持续研究与一些成果。已实现财富自由，欢迎各路同行交流。
+              - blockquote [ref=e128]:
+                - text: 平常不怎么看 GitHub Issue，
+                - strong [ref=e129]: 有事请直接联系我的 Telegram
+                - text: ：
+                - link "@PHX_poster" [ref=e130]:
+                  - /url: https://t.me/PHX_poster?direct
+            - generic [ref=e131]:
+              - heading "信条" [level=3] [ref=e132]
+              - generic [ref=e133]:
+                - generic [ref=e135]: 「 我永远相信中国奠信 」
+                - generic [ref=e136]:
+                  - generic [ref=e137]: 「 Vibe Coding is BEST! 」
+                  - link "Powered by Cursor" [ref=e138]:
+                    - /url: https://cursor.com
+                    - img "Powered by Cursor" [ref=e139]
+            - generic [ref=e140]:
+              - heading "技术栈" [level=3] [ref=e141]
+              - paragraph [ref=e142]:
+                - img "Python" [ref=e143]
+                - img "Node.js" [ref=e144]
+                - img "Cloudflare Workers" [ref=e145]
+                - img "TypeScript" [ref=e146]
+                - img "Linux" [ref=e147]
+                - img "Nginx" [ref=e148]
+                - img "Docker" [ref=e149]
+                - img "Cloudflare" [ref=e150]
+                - img "Cursor" [ref=e151]
+            - generic [ref=e152]:
+              - heading "方向" [level=3] [ref=e153]
+              - table [ref=e154]:
+                - rowgroup [ref=e155]:
+                  - row "领域 内容" [ref=e156]:
+                    - columnheader "领域" [ref=e157]
+                    - columnheader "内容" [ref=e158]
+                - rowgroup [ref=e159]:
+                  - row "IDC 机房选型、线路规划、节点调度、长期稳定运营" [ref=e160]:
+                    - cell "IDC" [ref=e161]:
+                      - strong [ref=e162]: IDC
+                    - cell "机房选型、线路规划、节点调度、长期稳定运营" [ref=e163]
+                  - row "网络 高性能转发、边缘加速、Anycast、协议优化" [ref=e164]:
+                    - cell "网络" [ref=e165]:
+                      - strong [ref=e166]: 网络
+                    - cell "高性能转发、边缘加速、Anycast、协议优化" [ref=e167]
+                  - row "安全 DDoS 攻防、清洗策略、风控、服务器加固" [ref=e168]:
+                    - cell "安全" [ref=e169]:
+                      - strong [ref=e170]: 安全
+                    - cell "DDoS 攻防、清洗策略、风控、服务器加固" [ref=e171]
+                  - row "研发 Python 与 Node.js 后端、前端工程、Cloudflare Workers" [ref=e172]:
+                    - cell "研发" [ref=e173]:
+                      - strong [ref=e174]: 研发
+                    - cell "Python 与 Node.js 后端、前端工程、Cloudflare Workers" [ref=e175]
+                  - row "团队 中小型团队的运营、协作流程与产品交付" [ref=e176]:
+                    - cell "团队" [ref=e177]:
+                      - strong [ref=e178]: 团队
+                    - cell "中小型团队的运营、协作流程与产品交付" [ref=e179]
+            - generic [ref=e180]: — Less, but better. —
+    - img [ref=e41]
+    - generic [ref=e42]:
+      - generic [ref=e45]: Made By
+      - generic [ref=e46]: 👈 点击展开
+    - generic [ref=e49]:
+      - text: © 2026
+      - link "PHX" [ref=e50]:
+        - /url: //iPHX.io

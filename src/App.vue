@@ -85,11 +85,12 @@ const loadComplete = () => {
 };
 
 // 监听宽度变化
+// 注：boxOpenState（PHX 详情区）不再因小屏强制关闭，
+// Box 在小屏下会以全屏抽屉形式覆盖（见 Box/index.vue 的 @media 处理）
 watch(
   () => store.innerWidth,
   (value) => {
     if (value < 721) {
-      store.boxOpenState = false;
       store.setOpenState = false;
     }
   },
@@ -99,15 +100,19 @@ onMounted(() => {
   // 自定义鼠标
   cursorInit();
 
-  // 屏蔽右键
-  document.oncontextmenu = () => {
-    ElMessage({
-      message: "为了浏览体验，本站禁用右键",
-      grouping: true,
-      duration: 2000,
-    });
-    return false;
-  };
+  // 屏蔽右键（仅桌面端：触屏设备长按图片/文本会触发 contextmenu，对移动用户不打扰）
+  const isTouchDevice =
+    "ontouchstart" in window || navigator.maxTouchPoints > 0;
+  if (!isTouchDevice) {
+    document.oncontextmenu = () => {
+      ElMessage({
+        message: "为了浏览体验，本站禁用右键",
+        grouping: true,
+        duration: 2000,
+      });
+      return false;
+    };
+  }
 
   // 鼠标中键事件
   window.addEventListener("mousedown", (event) => {
@@ -306,15 +311,16 @@ onBeforeUnmount(() => {
     }
   }
   @media (max-width: 390px) {
-    overflow-x: auto;
+    // 极小屏：关掉横向滚动，宽度自适应（避免 391px 强制宽度产生水平滚动条）
+    overflow-x: hidden;
     .container {
-      width: 391px;
+      width: 100%;
     }
     .menu {
-      left: 167.5px; // 391px * 0.5 - 28px
+      left: calc(50% - 28px);
     }
     .f-ter {
-      width: 391px;
+      width: 100%;
     }
     @media (min-height: 721px) {
       overflow-y: hidden;

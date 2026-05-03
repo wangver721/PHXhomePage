@@ -32,7 +32,6 @@
 <script setup>
 import { Icon } from "@vicons/utils";
 import { QuoteLeft, QuoteRight } from "@vicons/fa";
-import { Error } from "@icon-park/vue-next";
 import { mainStore } from "@/store";
 const store = mainStore();
 
@@ -56,20 +55,10 @@ const descriptionText = reactive({
   text: import.meta.env.VITE_DESC_TEXT,
 });
 
-// 切换右侧功能区
+// 切换右侧功能区（盒子）
+// 手机端会以全屏抽屉形式覆盖（在 Box/index.vue 中通过 @media 处理）
 const changeBox = () => {
-  if (store.getInnerWidth >= 721) {
-    store.boxOpenState = !store.boxOpenState;
-  } else {
-    ElMessage({
-      message: "当前页面宽度不足以开启盒子",
-      grouping: true,
-      icon: h(Error, {
-        theme: "filled",
-        fill: "#efefef",
-      }),
-    });
-  }
+  store.boxOpenState = !store.boxOpenState;
 };
 
 // 监听状态变化
@@ -129,6 +118,24 @@ watch(
     @media (max-width: 720px) {
       max-width: 100%;
     }
+    // 小屏：缩小头像和域名字号，确保 iPHX.io 完整显示
+    @media (max-width: 390px) {
+      .logo-img {
+        width: 88px;
+      }
+      .name {
+        padding-left: 14px;
+        height: auto;
+        .bg {
+          font-size: 3.5rem;
+        }
+        .sm {
+          font-size: 1.5rem;
+          margin-left: 4px;
+          display: inline !important;
+        }
+      }
+    }
   }
   .description {
     padding: 1rem;
@@ -155,7 +162,8 @@ watch(
     }
     @media (max-width: 720px) {
       max-width: 100%;
-      pointer-events: none;
+      // 手机端允许点击展开 PHX 详情区（Box 在手机端为全屏抽屉）
+      cursor: pointer;
     }
   }
   // @media (max-width: 390px) {

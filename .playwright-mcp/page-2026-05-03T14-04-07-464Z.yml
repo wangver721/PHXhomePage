@@ -1,0 +1,16 @@
+- generic [ref=e2]:
+  - img "cover" [ref=e13]
+  - main [ref=e14]:
+    - generic [ref=e184]:
+      - generic [ref=e185]: iPHX.io
+      - generic [ref=e200]:
+        - generic [ref=e201]: 让留下的人，笑着活下去
+        - generic [ref=e202]: "-「 narcissu 」"
+    - img [ref=e194]
+    - generic [ref=e42]:
+      - generic [ref=e45]: Made By
+      - generic [ref=e46]: 👈 点击展开
+    - generic [ref=e49]:
+      - text: © 2026
+      - link "PHX" [ref=e50]:
+        - /url: //iPHX.io

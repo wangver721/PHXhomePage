@@ -76,5 +76,26 @@ const closeShow = ref(false);
     width: 100%;
     height: 100%;
   }
+
+  // 手机端：盒子改为全屏抽屉，覆盖整页
+  @media (max-width: 720px) {
+    position: fixed;
+    inset: 0;
+    margin: 0;
+    height: 100vh;
+    max-width: 100%;
+    width: 100%;
+    z-index: 5;
+    border-radius: 0;
+    .close,
+    .setting {
+      top: 18px;
+      width: 32px;
+      height: 32px;
+    }
+    .content {
+      padding: 60px 18px 24px;
+    }
+  }
 }
 </style>

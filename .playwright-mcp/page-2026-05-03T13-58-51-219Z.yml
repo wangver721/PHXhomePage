@@ -1,0 +1,16 @@
+- generic [ref=e2]:
+  - img "cover" [ref=e13]
+  - main [ref=e14]:
+    - generic [ref=e46]:
+      - generic [ref=e47]: iPHX.io
+      - generic [ref=e52]:
+        - generic [ref=e53]: 2026 年 05 月 03 日 星期日
+        - generic [ref=e54]: 21:58:51
+    - img [ref=e56]
+    - generic [ref=e31]:
+      - generic [ref=e34]: Made By
+      - generic [ref=e35]: 👈 点击展开
+    - generic [ref=e38]:
+      - text: © 2026
+      - link "PHX" [ref=e39]:
+        - /url: //iPHX.io

@@ -200,5 +200,26 @@ const typingSvg =
   @media (max-width: 980px) {
     .creed .creed-card { min-width: 0; }
   }
+
+  // 手机端：减小留白，标题/正文字号微调
+  @media (max-width: 720px) {
+    margin-top: 10px;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    .typing { margin-bottom: 8px; }
+    .block {
+      padding: 12px 14px;
+      margin-bottom: 12px;
+      h3 { font-size: 1rem; margin-bottom: 8px; }
+    }
+    .creed { gap: 8px; flex-direction: column; }
+    .focus {
+      font-size: 0.85rem;
+      th, td { padding: 6px 8px; }
+      td:first-child { width: 64px; }
+    }
+    .badges img { height: 20px; }
+    .motto { margin: 12px 0 4px; font-size: 0.78rem; }
+  }
 }
 </style>
