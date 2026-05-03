@@ -1,0 +1,14 @@
+[
+  {
+    "name": "GitHub",
+    "icon": "/images/icon/github.png",
+    "tip": "去 GitHub 看看",
+    "url": "https://github.com/wangver721"
+  },
+  {
+    "name": "Telegram",
+    "icon": "/images/icon/telegram.png",
+    "tip": "在 Telegram 找到我",
+    "url": "https://t.me/PHX_poster?direct"
+  }
+]
