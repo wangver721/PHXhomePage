@@ -30,3 +30,8 @@ dist-ssr
 # Cloudflare Wrangler
 .wrangler/
 .dev.vars
+
+# Playwright MCP 调试产物（页面快照、诊断截图）
+.playwright-mcp/
+diag-*.png
+after-mobile-*.png
