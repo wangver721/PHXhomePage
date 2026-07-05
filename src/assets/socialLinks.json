@@ -1,5 +1,11 @@
 [
   {
+    "name": "Blog",
+    "icon": "/images/icon/blog.svg",
+    "tip": "来我的博客看看",
+    "url": "https://blog.iphx.io"
+  },
+  {
     "name": "GitHub",
     "icon": "/images/icon/github.png",
     "tip": "去 GitHub 看看",
